@@ -84,24 +84,4 @@ if st.button('Calculate Price Range'):
 
     st.write(f"Price Range: {price_range} INR")
 
-# Display selected values
-st.write("Inputs provided:")
-st.write({
-    'Age': age,
-    'Gender': gender,
-    'Zone': zone,
-    'Occupation': occupation,
-    'Income Levels': income_levels,
-    'Consume Frequency': consume_frequency,
-    'Current Brand': current_brand,
-    'Preferable Consumption Size': preferable_consumption_size,
-    'Awareness of Other Brands': awareness_of_other_brands,
-    'Reasons for Choosing Brands': reasons_for_choosing_brands,
-    'Flavor Preference': flavor_preference,
-    'Purchase Channel': purchase_channel,
-    'Packaging Preference': packaging_preference,
-    'Health Concerns': health_concerns,
-    'Typical Consumption Situations': typical_consumption_situations
-})
-
 
