@@ -82,6 +82,11 @@ if st.button('Calculate Price Range'):
             awareness_of_other_brands, reasons_for_choosing_brands, flavor_preference, purchase_channel,
             packaging_preference, health_concerns, typical_consumption_situations)
 
-    st.write(f"Price Range: {price_range} INR")
+    # Use Markdown to style the output
+    st.markdown(
+        f"<p style='font-size: 18px; font-weight: bold;'>Price Range: {price_range} INR</p>",
+        unsafe_allow_html=True
+    )
+
 
 
